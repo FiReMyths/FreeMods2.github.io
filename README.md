@@ -12,10 +12,4 @@ Welcome to the **Minecraft Mod Download Website**! Here you can download excitin
 
 The **Actions And Stuff** mod adds new actions and features to your Minecraft world. It’s a must-have for players looking to expand their gameplay options.
 
-- **Mod Download**: [Download Actions And Stuff](https://drive.google.com/file/d/1-18z1Z2d1YVxdIm52YpABpsAOOZ2GG21/view?usp=drivesdk)
-
-## Installation
-
-1. Clone or download the repository.
-   ```bash
-   git clone https://github.com/yourusername/minecraft-mod-website.git
+- **Mod Download**: [Download Actions And Stuff 1.3](https://drive.google.com/file/d/1-18z1Z2d1YVxdIm52YpABpsAOOZ2GG21/view?usp=drivesdk)
