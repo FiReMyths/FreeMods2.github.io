@@ -1,0 +1,123 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://example.com/minecraft_shader_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Container */
+.container {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.6); /* Transparent black overlay for contrast */
+    border-radius: 15px;
+}
+
+/* Header */
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #4CAF50;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+/* Home Section */
+#home {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Mods Section */
+#mods {
+    margin-top: 30px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #388e3c;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Contact Section */
+#contact {
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+#contact a {
+    color: #4CAF50;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #388e3c;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    body {
+        background-size: cover;
+    }
+    .container {
+        padding: 20px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p, h3 {
+        font-size: 16px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
